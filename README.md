@@ -1,6 +1,6 @@
-> ### All credits for the code go to [@iSplasher]('https://github.com/iSplasher')
+> ### All credits for the code go to [@iSplasher](https://github.com/iSplasher)
 
-This npm package was created based on answer from [issue]('https://github.com/parcel-bundler/parcel/issues/7570') with `@parcel/transformer-typescript-tsc`.
+This npm package was created based on answer from [issue](https://github.com/parcel-bundler/parcel/issues/7570) with `@parcel/transformer-typescript-tsc`.
 
 Until it's not resolved, this package might be handy. It allows you to see the exact line of error in your sourcemaps.
 
