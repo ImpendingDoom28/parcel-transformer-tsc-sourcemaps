@@ -12,7 +12,7 @@ Until it's not resolved, this package might be handy. It allows you to see the e
 npm i --save-dev parcel-transformer-tsc-sourcemaps
 ```
 
-2. Then, in your `.parcelrc` file change your `"@parcel/transformer-typescript-tsc"` with `"parcel-transformer-tsc-sourcemaps"`
+2. Then, in your `.parcelrc` file replace your `"@parcel/transformer-typescript-tsc"` with `"parcel-transformer-tsc-sourcemaps"`
 
 ```json
 {
