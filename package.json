@@ -1,0 +1,43 @@
+{
+	"name": "parcel-transformer-tsc-sourcemaps",
+	"verison": "1.0.0",
+	"scripts": {
+		"build": "tsc"
+	},
+	"main": "lib/index.js",
+	"source": "src/index.ts",
+	"files": [
+		"lib/**/*"
+	],
+	"engines": {
+		"parcel": "2.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ImpendingDoom28/parcel-transformer-tsc-sourcemaps.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ImpendingDoom28/parcel-transformer-tsc-sourcemaps/issues"
+	},
+	"homepage": "https://github.com/ImpendingDoom28/parcel-transformer-tsc-sourcemaps#readme",
+	"keywords": [
+		"parcel",
+		"transformer",
+		"sourcemaps",
+		"typescript"
+	],
+	"dependencies": {
+		"@parcel/plugin": "^2.2.1",
+		"@parcel/source-map": "^2.0.2",
+		"@parcel/ts-utils": "^2.2.1",
+		"@parcel/utils": "^2.2.1"
+	},
+	"devDependencies": {
+		"@parcel/types": "^2.2.1",
+		"@types/node": "^17.0.13",
+		"typescript": "^4.5.5"
+	},
+	"peerDependencies": {
+		"typescript": ">=4.0.0"
+	}
+}
